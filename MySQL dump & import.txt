@@ -1,0 +1,35 @@
+Export:
+
+C:\Users\Mrityunjoy Nath>mysqldump --host=localhost --user=user --password bbm > bbm.sql
+Enter password: ***********
+
+========================================================================================================================
+
+Import:
+
+C:\Users\Mrityunjoy Nath>mysql --host=localhost --user=mrityunjoy --password marvel < bbm.sql
+Enter password: ***********
+
+=========================================================================================================================
+
+Import table:
+
+C:\Users\Mrityunjoy Nath\Downloads>mysql -u mrityunjoy -p marvel < AssignedStations.sql
+Enter password: ***********
+
+OR
+
+C:\Users\Mrityunjoy Nath\Downloads>mysql --host=db4free.net --user=finalyearproject --password electricvehicle < Stations.sql
+Enter password: ***********
+
+Comment: Table with same name shouldn't exist;
+
+=========================================================================================================================
+
+
+Login:
+
+C:\Users\Mrityunjoy Nath>mysql --user=mrityunjoy --password
+Enter password: ***********
+
+=========================================================================================================================
